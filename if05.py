@@ -26,4 +26,4 @@ def main(n):
         maximum = n4
     else:
         maximum = n5
-    return
+    return maximum
