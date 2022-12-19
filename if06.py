@@ -32,13 +32,15 @@ def main(n):
     if n2 > m:
         m = n2
         index = index2
-    elif m < n3:
+    if m < n3:
         m = n3
         index = index3 
-    elif m < n4:
+    if m < n4:
         m = n4 
         index = index4 
-    elif m < n5:
+    if m < n5:
         m = n5
         index = index5
     return index 
+print(main(76514))
+print(main(54694))
